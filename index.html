@@ -368,31 +368,14 @@
       setTimeout(() => { box.style.display = "none"; }, 2500);
     }
 
-    updateCartCount();
-
-    // Contact form submission (no reload)
-  document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // stop page reload
-
-    // Optional: clear fields
-    this.reset();
-
-    // Show success message
-    const msg = document.getElementById('contactMessage');
-    msg.style.display = 'block';
-
-    // Hide message after 3 seconds
-    setTimeout(() => {
-      msg.style.display = 'none';
-    }, 3000);
-  });
-
+   
     
 }
     
   </script>
 </body>
 </html>
+
 
 
 
